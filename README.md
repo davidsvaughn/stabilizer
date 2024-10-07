@@ -35,3 +35,10 @@ python stabilize.py --input <input_video> [options]
 - `--center`: Frame number to use as center reference frame (-1 triggers auto-search, default=-1)
 - `--clahe`: Apply CLAHE to output (default=8, set to 0 to disable)
 - `--crop/--no-crop`: Enable/disable cropping of output video to remove borders (default: --crop)
+
+## References
+1. [Affine Transformations](https://docs.opencv.org/5.x/d4/d61/tutorial_warp_affine.html)
+2. [Basic concepts of the Homography explained with code](https://docs.opencv.org/5.x/d9/dab/tutorial_homography.html)
+3. [Feature Matching + Homography to find Objects](https://docs.opencv.org/5.x/d1/de0/tutorial_py_feature_homography.html)
+4. [Optical Flow](https://docs.opencv.org/5.x/d4/dee/tutorial_optical_flow.html)
+5. [Shi-Tomasi Corner Detector & Good Features to Track](https://docs.opencv.org/5.x/d4/d8c/tutorial_py_shi_tomasi.html)
