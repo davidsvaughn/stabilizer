@@ -32,6 +32,6 @@ python stabilize.py --input <input_video> [options]
 - `--output`: Path of output video (optional, auto-generated if not provided)
 - `--trans`: Transform type (0=Affine, 1=Homography, default=0)
 - `--min_features`: Minimum number of Shi-Tomasi corners (default=60)
-- `--center`: Center frame (-1 triggers auto-search, default=-1)
+- `--center`: Frame number to use as center reference frame (-1 triggers auto-search, default=-1)
 - `--clahe`: Apply CLAHE to output (default=8, set to 0 to disable)
 - `--crop/--no-crop`: Enable/disable cropping of output video to remove borders (default: --crop)
