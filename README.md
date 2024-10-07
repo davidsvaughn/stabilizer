@@ -2,6 +2,8 @@
 
 Remove jitter from grayscale/IR/thermal drone videos
 
+![before](media/image/orig.gif) ![after](media/image/stable.gif)
+
 ## Overview
 
 This Python script stabilizes videos by tracking feature points across frames and applying transformations to align the frames. It uses optical flow for tracking and can apply either affine or homography transformations. The result is a smoother, more stable video output.
