@@ -1,6 +1,6 @@
 # Video Stabilization Script
 
-Remove jitter from grayscale/IR/thermal drone videos
+Remove jitter from grayscale/IR/thermal drone videos using ![KLT Tracking](https://en.wikipedia.org/wiki/Kanade%E2%80%93Lucas%E2%80%93Tomasi_feature_tracker) 
 <p align="center">
   <img src="media/image/orig.gif" width="48%" />
   <img src="media/image/stable.gif" width="48%" /> 
