@@ -18,3 +18,20 @@ This Python script stabilizes videos by tracking feature points across frames an
 - Lucas-Kanade optical flow for tracking points across frames
 - Filtering of optical flow tracks to get the best keypoint pairs
 - Option to apply either affine or homography transformations for stabilization
+
+## Usage
+
+Run the script from the command line with the following syntax:
+```
+python stabilize.py --input <input_video> [options]
+```
+### Command-line Options:
+
+- `--input`: Path of input video (required)
+- `--ref`: Path of reference video for tracking (optional, defaults to input video)
+- `--output`: Path of output video (optional, auto-generated if not provided)
+- `--trans`: Transform type (0=Affine, 1=Homography, default=0)
+- `--min_features`: Minimum number of Shi-Tomasi corners (default=60)
+- `--center`: Center frame (-1 triggers auto-search, default=-1)
+- `--clahe`: Apply CLAHE to output (default=8, set to 0 to disable)
+- `--crop/--no-crop`: Enable/disable cropping of output video to remove borders (default: --crop)
