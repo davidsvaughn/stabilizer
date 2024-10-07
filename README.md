@@ -5,9 +5,6 @@ Remove jitter from grayscale/IR/thermal drone videos
   <img src="media/image/orig.gif" width="45%" />
   <img src="media/image/stable.gif" width="45%" /> 
 </p>
-<p align="center">
-  <em>Left: Original video &nbsp;&nbsp;&nbsp;&nbsp; Right: Stabilized video</em>
-</p>
 
 ## Overview
 
